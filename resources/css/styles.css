@@ -217,8 +217,7 @@ h3 {
 }
 
 .testimonials {
-    background-image: /*linear-gradient(rgba(0, 0, 0, 0.801), rgba(0, 0, 0, 0.801))*/
-    url(/resources/css/img/perfume.jpeg);
+    background-image: url(/resources/css/img/perfume.jpeg);
     background-size: cover;
     color: #fff;
     background-attachment: fixed;
@@ -280,7 +279,8 @@ a {
 
 footer {
     background-color: #000;
-    padding: 60px;
+    padding: 50px;
+    font-size: 80%:
 }
 
 .footer-nav {
@@ -322,13 +322,19 @@ footer-nav li:last-child,
 footer p {
     color: #888;
     text-align: center;
-    font-size: 90%;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .social-links li a:link,
 .socail-link li a:visited {
-    font-size: 180%;
+    font-size: 160%;
+}
+
+.ion-social-facebook,
+.ion-social-twitter,
+.ion-social-googleplus,
+.ion-social-instagram {
+    transition: color 0.2s;
 }
 
 .ion-social-facebook:hover {
