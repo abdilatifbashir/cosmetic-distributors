@@ -24,7 +24,7 @@ section {
 }
 
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/header.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/perfume_background_header.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -136,6 +136,12 @@ h3 {
     display: block;
     color: #e67e22;
     margin-bottom: 10px;
+}
+
+a {
+    padding: 10px 30px;
+    font-size: 18px;
+    color: white;
 }
 
 
