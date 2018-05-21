@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 
 
-
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
     <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
     <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
@@ -33,25 +33,34 @@
 
 <body>
     <header>
-
-        <na>
-            <div class="row">
+        <div class="row">
+            <div class="col s6">
                 <img src="resources/css/img/logo.png" class="logo">
-                <ul class="main-nav">
-                    <li><a href="#home_data">Home</a></li>
-                    <li><a href="#service_data">our services</a></li>
-                    <li><a href="#customer_data">our costomers</a></li>
-                    <li><a href="#contact_data">contact us</a></li>
-                </ul>
-            </div>
-        </na>
-        <div class="hero-text-box">
-            <h1>Goodbye to unhealthy cosmetic.<br>Hello super healthy cosmetic</h1>
-            <a href="#" class="bn btn-full">make me beauriful</a>
-            <a href="#" class="bn btn-ghost">show me more</a>
-        </div>
 
+            </div>
+            <div class="col s6">
+                <p>phone:0712048306</p>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="w3-bar w3-red">
+                <a href="#home_data" class="w3-bar-item w3-button">Home</a>
+                <a href="#service_data" class="w3-bar-item w3-button w3-hide-small">Our service</a>
+                <a href="#customer_data" class="w3-bar-item w3-button w3-hide-small">Our customer</a>
+                <a href="#contact_data" class="w3-bar-item w3-button w3-hide-small">Our contacts</a>
+                <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="myFunction()">&#9776;</a>
+            </div>
+
+            <div id="demo" class="w3-bar-block w3-red w3-hide w3-hide-large w3-hide-medium">
+                <a href="#service_data" class="w3-bar-item w3-button">Our service</a>
+                <a href="#customer_data" class="w3-bar-item w3-button">Our customer</a>
+                <a href="#contact_data" class="w3-bar-item w3-button">Our contacts</a>
+            </div>
+
+        </div>
     </header>
+
     <section class="section-features" id="home_data">
         <div class="row">
 
@@ -127,54 +136,7 @@
             <p class="service-content">our able team who are passionate about looking good are ready for you all the times, that is why we want to accomplish that goal with our esteem customers
             </p>
         </div>
-        <ul class="service-showcase">
-            <li>
-                <figure class="service-photo">
-                    <img src="resources/images/photo1.jpeg" alt="my beauriful house">
-                </figure>
-            </li>
-            <li>
-                <figure class="service-photo">
-                    <img src="resources/images/photo2.jpeg" alt="my beauriful house">
-                </figure>
-            </li>
-            <li>
-                <figure class="service-photo">
-                    <img src="resources/images/photo3.jpeg" alt="my beauriful house">
-                </figure>
-            </li>
-            <li>
-                <figure class="service-photo">
-                    <img src="resources/images/photo4.jpeg" alt="my beauriful house">
-                </figure>
-            </li>
 
-
-        </ul>
-        <ul class="service-showcase">
-            <li>
-                <figure class="service-photo">
-                    <img src="resources/images/photo5.jpeg" alt="my beauriful house">
-                </figure>
-            </li>
-            <li>
-                <figure class="service-photo">
-                    <img src="resources/images/photo6.jpeg" alt="my beauriful house">
-                </figure>
-            </li>
-            <li>
-                <figure class="service-photo">
-                    <img src="resources/images/photo7.jpeg" alt="my beauriful house">
-                </figure>
-            </li>
-            <li>
-                <figure class="service-photo">
-                    <img src="resources/images/photo8.jpeg" alt="my beauriful house">
-                </figure>
-            </li>
-
-
-        </ul>
 
     </section>
     <p></p>
@@ -273,7 +235,16 @@
 
 
 
-
+    <script>
+            function myFunction() {
+                var x = document.getElementById("demo");
+                if (x.className.indexOf("w3-show") == -1) {
+                    x.className += " w3-show";
+                } else { 
+                    x.className = x.className.replace(" w3-show", "");
+                }
+            }
+            </script>
 
 </body>
 
