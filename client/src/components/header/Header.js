@@ -1,84 +1,82 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 
 class Header extends Component {
   render() {
     return (
-      <header>
-        <div className="row">
-          <div className="col s4">
-            <img
-              src="resources/css/img/logo.png"
-              className="logo"
-              alt="haba logo"
-            />
-          </div>
-          <div className="col s4">
-            <p className="head-sect">
-              order now get it faster&nbsp;&nbsp;&nbsp;
-              <span>
-                <i className="fa fa-car" style={{ fontSize: "20px" }} />
-              </span>
-            </p>
-          </div>
-          <div className="col s4">
-            <p className="head-sect">
-              <i className="fa fa-phone" />&nbsp;&nbsp;&nbsp;+254712048306
-            </p>
-          </div>
-        </div>
-        <div className="row">
-          <div className="w3-bar w3-red">
-            <a href="#home_data" className="w3-bar-item w3-button">
-              Home
-            </a>
-            <a
-              href="#service_data"
-              className="w3-bar-item w3-button w3-hide-small"
-            >
-              Our service
-            </a>
-            <a
-              href="#customer_data"
-              className="w3-bar-item w3-button w3-hide-small"
-            >
-              Our customer
-            </a>
-            <a
-              href="#contact_data"
-              className="w3-bar-item w3-button w3-hide-small"
-            >
-              Our contacts
-            </a>
-            <a
-              href=""
-              className="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium"
-              onclick="myFunction()"
-            >
-              &#9776;
-            </a>
-          </div>
-
-          <div
-            id="demo"
-            className="w3-bar-block w3-red w3-hide w3-hide-large w3-hide-medium"
-          >
-            <a href="#service_data" className="w3-bar-item w3-button">
-              Our service
-            </a>
-            <a href="#customer_data" className="w3-bar-item w3-button">
-              Our customer
-            </a>
-            <a href="#contact_data" className="w3-bar-item w3-button">
-              Our contacts
-            </a>
+      <header id="header">
+        <div className="container header-top">
+          <div className="row">
+            <div className="col-6 top-head-left">
+              <ul>
+                <li>
+                  <Link to="#">
+                    <i className="fa fa-facebook" />
+                  </Link>
+                </li>
+                <li>
+                  <Link to="#">
+                    <i className="fa fa-twitter" />
+                  </Link>
+                </li>
+                <li>
+                  <Link to="#">
+                    <i className="fa fa-dribbble" />
+                  </Link>
+                </li>
+                <li>
+                  <Link to="#">
+                    <i className="fa fa-behance" />
+                  </Link>
+                </li>
+              </ul>
+            </div>
+            <div className="col-6 top-head-right">
+              <ul>
+                <li>
+                  <span className="text-italic text-white">
+                    Order now get it faster at{" "}
+                  </span>
+                  <a href="tel:+254 712 048 306">
+                    <span>+254712048306</span>{" "}
+                    <span className="lnr lnr-phone-handset" />
+                  </a>
+                </li>
+                {/* <li>
+                  <Link to="#">Register / Login</Link>
+                </li> */}
+              </ul>
+            </div>
           </div>
         </div>
-        <div className="row">
-          <h3>
-            Hello, we are habas,your new premium cosmetics and makeups delivery
-            service. The ideal distributors of quality affordable cosmetics-hair
-            product,perfumes and makeups.
-          </h3>
+        <hr />
+        <div className="container">
+          <div className="row align-items-center justify-content-between d-flex">
+            <div id="logo">
+              <Link to="/">
+                {/* <img src="img/logo.png" alt="" title="" /> */}
+                <h3 className="text-white">Haba</h3>
+              </Link>
+            </div>
+            <nav id="nav-menu-container">
+              <ul className="nav-menu">
+                <li className="menu-active">
+                  {/* <a href="/">Home</a> */}
+                  <Link to="/">Home</Link>
+                </li>
+                <li>
+                  <Link to="/about">About Us</Link>
+                </li>
+                <li>
+                  <Link to="/service">Service</Link>
+                </li>
+                <li>
+                  <Link to="/contact">Contact</Link>
+                </li>
+              </ul>
+            </nav>
+            {/* <!-- #nav-menu-container -->		    		 */}
+          </div>
         </div>
       </header>
     );

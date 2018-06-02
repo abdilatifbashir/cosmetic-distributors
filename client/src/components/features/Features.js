@@ -3,39 +3,81 @@ import React, { Component } from "react";
 class Features extends Component {
   render() {
     return (
-      <section className="section-features" id="home_data">
-        <div className="row">
-          <h2 className="long-copy">
-            Hello, we are Haba cosmetics,your premium cosmetics distributors.
-            The ideal distributors of quality affordable cosmetics-hair
-            product,perfumes and makeups.
-          </h2>
-        </div>
-        <div className="row">
-          <div className="col span-1-of-3 box">
-            <i className="ion-ios-stopwatch-outline icon-big" />
-            <h3>ready in 20 minutes</h3>
-            <p>
-              you are only 20 minutes away from your natural and super healthy
-              cosmetics delivered right to your shop.we ensure that you are 100%
-              happy.
-            </p>
+      <section className="feature-area section-gap" id="feature">
+        <div className="container">
+          <div className="row d-flex justify-content-center">
+            <div className="col-md-8 pb-40 header-text">
+              <h1>Some Features that Made us Unique</h1>
+              <p>Who are in extremely love with eco friendly system.</p>
+            </div>
           </div>
-          <div className="col span-1-of-3 box">
-            <i className="ion-ios-nutrition-outline icon-big" />
-            <h3>100% organic</h3>
-            <p>
-              All our cosmetics are fresh natural.Good for your health,the
-              environment and smell good.
-            </p>
-          </div>
-          <div className="col span-1-of-3 box">
-            <i className="ion-ios-cart-outline icon-big" />
-            <h3>order anything</h3>
-            <p>
-              we dont limit your choose and creativity,which means you can order
-              anything you feel like.
-            </p>
+          <div className="row">
+            <div className="col-lg-4 col-md-6">
+              <div className="single-feature">
+                <h4>
+                  <span className="lnr lnr-user" />Expert Technicians
+                </h4>
+                <p>
+                  Usage of the Internet is becoming more common due to rapid
+                  advancement of technology and power.
+                </p>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6">
+              <div className="single-feature">
+                <h4>
+                  <span className="lnr lnr-license" />Professional Service
+                </h4>
+                <p>
+                  Usage of the Internet is becoming more common due to rapid
+                  advancement of technology and power.
+                </p>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6">
+              <div className="single-feature">
+                <h4>
+                  <span className="lnr lnr-phone" />Great Support
+                </h4>
+                <p>
+                  Usage of the Internet is becoming more common due to rapid
+                  advancement of technology and power.
+                </p>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6">
+              <div className="single-feature">
+                <h4>
+                  <span className="lnr lnr-rocket" />Technical Skills
+                </h4>
+                <p>
+                  Usage of the Internet is becoming more common due to rapid
+                  advancement of technology and power.
+                </p>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6">
+              <div className="single-feature">
+                <h4>
+                  <span className="lnr lnr-diamond" />Highly Recomended
+                </h4>
+                <p>
+                  Usage of the Internet is becoming more common due to rapid
+                  advancement of technology and power.
+                </p>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6">
+              <div className="single-feature">
+                <h4>
+                  <span className="lnr lnr-bubble" />Positive Reviews
+                </h4>
+                <p>
+                  Usage of the Internet is becoming more common due to rapid
+                  advancement of technology and power.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </section>

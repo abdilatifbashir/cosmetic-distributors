@@ -3,146 +3,74 @@ import React, { Component } from "react";
 class Services extends Component {
   render() {
     return (
-      <section className="section-service" id="service_data">
-        <div>
-          <p className="service-content">
-            dedicated to offering quality service with the speed, reliability
-            and value you deserve
-          </p>
-          {/* <!-- <img src="resources/images/profile.png" className="profile-img"> -->
-            <!-- Start WOWSlider.com BODY section --> */}
-          <div id="wowslider-container1">
-            <div className="ws_images">
-              <ul>
-                <li>
-                  <img
-                    src="data1/images/cos1.jpg"
-                    alt="slider_img1"
-                    title="slider_img1"
-                    id="wows1_0"
-                  />
-                </li>
-                <li>
-                  <img
-                    src="data1/images/cos2.jpg"
-                    alt="slider_img2"
-                    title="slider_img2"
-                    id="wows1_1"
-                  />
-                </li>
-                <li>
-                  <img
-                    src="data1/images/cos3.jpeg"
-                    alt="slider_img3"
-                    title="slider_img3"
-                    id="wows1_2"
-                  />
-                </li>
-                <li>
-                  <img
-                    src="data1/images/cos4.jpg"
-                    alt="slider_img4"
-                    title="slider_img4"
-                    id="wows1_3"
-                  />
-                </li>
-                <li>
-                  <img
-                    src="data1/images/cos5.jpg"
-                    alt="slider_img5"
-                    title="slider_img5"
-                    id="wows1_4"
-                  />
-                </li>
-                <li>
-                  <img
-                    src="data1/images/cos6.png"
-                    alt="slider_img6.jpg"
-                    title="slider_img6.jpg"
-                    id="wows1_5"
-                  />
-                </li>
-                <li>
-                  <a href="http://wowslider.net">
-                    <img
-                      src="data1/images/cos7.jpg"
-                      alt="css slider"
-                      title="slider_img7"
-                      id="wows1_6"
-                    />
-                  </a>
-                </li>
-                <li>
-                  <img
-                    src="data1/images/cos8.jpg"
-                    alt="slider_img8"
-                    title="slider_img8"
-                    id="wows1_7"
-                  />
-                </li>
-              </ul>
-            </div>
-            <div className="ws_bullets">
-              <div>
-                <a href="#" title="slider_img1">
-                  <span>
-                    <img src="data1/tooltips/cos1.jpg" alt="slider_img1" />1
-                  </span>
-                </a>
-                <a href="#" title="slider_img2">
-                  <span>
-                    <img src="data1/tooltips/cos2.jpg" alt="slider_img2" />2
-                  </span>
-                </a>
-                <a href="#" title="slider_img3">
-                  <span>
-                    <img src="data1/tooltips/cos3.jpeg" alt="slider_img3" />3
-                  </span>
-                </a>
-                <a href="#" title="slider_img4">
-                  <span>
-                    <img src="data1/tooltips/cos4.jpg" alt="slider_img4" />4
-                  </span>
-                </a>
-                <a href="#" title="slider_img5">
-                  <span>
-                    <img src="data1/tooltips/cos5.jpg" alt="slider_img5" />5
-                  </span>
-                </a>
-                <a href="#" title="slider_img6.jpg">
-                  <span>
-                    <img src="data1/tooltips/cos6.png" alt="slider_img6.jpg" />6
-                  </span>
-                </a>
-                <a href="#" title="slider_img7">
-                  <span>
-                    <img src="data1/tooltips/cos7.jpg" alt="slider_img7" />7
-                  </span>
-                </a>
-                <a href="#" title="slider_img8">
-                  <span>
-                    <img src="data1/tooltips/cos8.jpg" alt="slider_img8" />8
-                  </span>
-                </a>
+      <section className="service-area section-gap" id="service">
+        <div className="container">
+          <div className="row d-flex justify-content-center">
+            <div className="menu-content pb-70 col-lg-8">
+              <div className="title text-center">
+                <h1 className="mb-10">Our Offered Services</h1>
+                <p>
+                  Who are in extremely love with affordable cosmetics-hair
+                  product,perfumes and makeups
+                </p>
               </div>
             </div>
-            <div
-              className="ws_script"
-              style={{ position: "absolute", left: "-99%" }}
-            >
-              <a href="http://wowslider.net">html5 slideshow</a> by
-              WOWSlider.com v8.8
-            </div>
-            <div className="ws_shadow" />
           </div>
-          <script type="text/javascript" src="engine1/wowslider.js" />
-          <script type="text/javascript" src="engine1/script.js" />
-          {/* <!-- End WOWSlider.com BODY section --> */}
-          <p className="service-content">
-            our able team who are passionate about looking good are ready for
-            you all the times, that is why we want to accomplish that goal with
-            our esteem customers
-          </p>
+          <div className="row">
+            <div className="col-lg-4">
+              <div className="single-service">
+                <div className="thumb">
+                  <img className="img-fluid" src="img/s1.png" alt="" />
+                </div>
+                <div className="detail">
+                  <a href="#">
+                    <h4>Ready in 20 minutes</h4>
+                  </a>
+                  <p>
+                    you are only 20 minutes away from your natural and super
+                    healthy cosmetics delivered right to your shop.we ensure
+                    that you are 100% happy.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4">
+              <div className="single-service">
+                <div className="thumb">
+                  <img
+                    className="img-fluid"
+                    src="img/100-Natural-Logo.png"
+                    alt=""
+                  />
+                </div>
+                <div className="detail">
+                  <a href="#">
+                    <h4>100% organic</h4>
+                  </a>
+                  <p>
+                    All our cosmetics are fresh natural.Good for your health,the
+                    environment and smell good.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4">
+              <div className="single-service">
+                <div className="thumb">
+                  <img className="img-fluid" src="img/s3.png" alt="" />
+                </div>
+                <div className="detail">
+                  <a href="#">
+                    <h4>Order anything</h4>
+                  </a>
+                  <p>
+                    we dont limit your choose and creativity,which means you can
+                    order anything you feel like.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     );
