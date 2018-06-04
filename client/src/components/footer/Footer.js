@@ -25,13 +25,13 @@ class Footer extends Component {
                   {/* <a href="https://colorlib.com" target="_blank">
                     Colorlib
                   </a> */}
-                  <a
+                  {/* <a
                     href="https://alphaclicksolutions.com"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
                     Alpha Nganga
-                  </a>
+                  </a> */}
                   {/* <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --> */}
                 </p>
               </div>

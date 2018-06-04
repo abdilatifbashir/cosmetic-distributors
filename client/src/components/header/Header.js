@@ -37,8 +37,8 @@ class Header extends Component {
                   <span className="text-italic text-white">
                     Order now get it faster at{" "}
                   </span>
-                  <a href="tel:+254 712 048 306">
-                    <span>+254712048306</span>{" "}
+                  <a href="tel:+254 721 707 523">
+                    <span>+254 721 707 523</span>{" "}
                     <span className="lnr lnr-phone-handset" />
                   </a>
                 </li>
