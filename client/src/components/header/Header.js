@@ -61,8 +61,8 @@ class Header extends Component {
             <nav id="nav-menu-container">
               <ul className="nav-menu">
                 <li className="menu-active">
-                  {/* <a href="/">Home</a> */}
-                  <Link to="/">Home</Link>
+                  <a href="/">Home</a>
+                  {/* <Link to="/">Home</Link> */}
                 </li>
                 <li>
                   <Link to="/about">About Us</Link>
