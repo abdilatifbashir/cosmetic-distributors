@@ -19,14 +19,8 @@ class Footer extends Component {
                   Copyright &copy;<script>
                     document.write(new Date().getFullYear());
                   </script>{" "}
-<<<<<<< HEAD
                   by haba cosmetics. All rights reserved | This Designed with{" "}
                   <i className="fa fa-heart-o" aria-hidden="true" /> by{" "}
-=======
-                  by habas cosmetics. All rights reserved
-                  {/* | This Designed with{" "}
-                  <i className="fa fa-heart-o" aria-hidden="true" /> by{" "} */}
->>>>>>> 9bfecef092f53c3698271b646cfc149ff426b773
                   {/* <a href="https://colorlib.com" target="_blank">
                     Colorlib
                   </a> */}
