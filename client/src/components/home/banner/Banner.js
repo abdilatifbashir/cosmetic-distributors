@@ -10,7 +10,7 @@ class Banner extends Component {
             <div className="banner-content col-lg-9">
               <h6 className="text-white">Hello, we are habas</h6>
               <h1 className="text-white">
-                your new premium cosmetics and makeups delivery service.
+                your premium cosmetics and makeups delivery service.
               </h1>
               <p className="pt-20 pb-20 text-white">
                 The ideal distributors of quality affordable cosmetics-hair

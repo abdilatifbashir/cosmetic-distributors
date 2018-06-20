@@ -10,7 +10,7 @@ class Header extends Component {
             <div className="col-6 top-head-left">
               <ul>
                 <li>
-                  <Link to="#">
+                  <Link to="https://m.facebook.com/Haba_cosmetics-2194172697264971">
                     <i className="fa fa-facebook" />
                   </Link>
                 </li>
@@ -20,13 +20,8 @@ class Header extends Component {
                   </Link>
                 </li>
                 <li>
-                  <Link to="#">
-                    <i className="fa fa-dribbble" />
-                  </Link>
-                </li>
-                <li>
-                  <Link to="#">
-                    <i className="fa fa-behance" />
+                  <Link to="https://www.instagram.com/haba_cosmetics">
+                    <i className="fa fa-instagram" />
                   </Link>
                 </li>
               </ul>
@@ -37,8 +32,8 @@ class Header extends Component {
                   <span className="text-italic text-white">
                     Order now get it faster at{" "}
                   </span>
-                  <a href="tel:+254 712 048 306">
-                    <span>+254712048306</span>{" "}
+                  <a href="tel:+254 722 140 240">
+                    <span>+254 722 140 240</span>{" "}
                     <span className="lnr lnr-phone-handset" />
                   </a>
                 </li>
