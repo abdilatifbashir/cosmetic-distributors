@@ -19,18 +19,18 @@ class Footer extends Component {
                   Copyright &copy;<script>
                     document.write(new Date().getFullYear());
                   </script>{" "}
-                  by habas cosmetics. All rights reserved | This Designed with{" "}
+                  by haba cosmetics. All rights reserved | This Designed with{" "}
                   <i className="fa fa-heart-o" aria-hidden="true" /> by{" "}
                   {/* <a href="https://colorlib.com" target="_blank">
                     Colorlib
                   </a> */}
-                  <a
+                  {/* <a
                     href="https://alphaclicksolutions.com"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
                     Alpha Nganga
-                  </a>
+                  </a> */}
                   {/* <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --> */}
                 </p>
               </div>

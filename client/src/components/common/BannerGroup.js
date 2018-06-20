@@ -11,7 +11,7 @@ const Banner = ({ title, url }) => {
           <div className="about-content col-lg-12">
             <h1 className="text-white">{title}</h1>
             <p className="text-white link-nav">
-              <Link to="/">Home </Link> <span className="lnr lnr-arrow-right" />{" "}
+              <a href="/">Home </a> <span className="lnr lnr-arrow-right" />{" "}
               <Link to={url}> {title}</Link>
             </p>
           </div>

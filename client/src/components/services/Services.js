@@ -61,11 +61,11 @@ class Services extends Component {
                 </div>
                 <div className="detail">
                   <a href="#">
-                    <h4>Order anything</h4>
+                    <h4>Quality Cosmetics Delivered</h4>
                   </a>
                   <p>
-                    we dont limit your choose and creativity,which means you can
-                    order anything you feel like.
+                    We dont limit your choice and creativity which means you can
+                    order within our range of quality cosmetic products.
                   </p>
                 </div>
               </div>
