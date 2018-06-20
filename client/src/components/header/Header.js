@@ -32,8 +32,13 @@ class Header extends Component {
                   <span className="text-italic text-white">
                     Order now get it faster at{" "}
                   </span>
+<<<<<<< HEAD
                   <a href="tel:+254 722 140 240">
                     <span>+254 722 140 240</span>{" "}
+=======
+                  <a href="tel:+254 721 707 523">
+                    <span>+254 721 707 523</span>{" "}
+>>>>>>> 9bfecef092f53c3698271b646cfc149ff426b773
                     <span className="lnr lnr-phone-handset" />
                   </a>
                 </li>
@@ -56,8 +61,8 @@ class Header extends Component {
             <nav id="nav-menu-container">
               <ul className="nav-menu">
                 <li className="menu-active">
-                  {/* <a href="/">Home</a> */}
-                  <Link to="/">Home</Link>
+                  <a href="/">Home</a>
+                  {/* <Link to="/">Home</Link> */}
                 </li>
                 <li>
                   <Link to="/about">About Us</Link>
