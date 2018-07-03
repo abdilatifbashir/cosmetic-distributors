@@ -10,19 +10,19 @@ class Header extends Component {
             <div className="col-6 top-head-left">
               <ul>
                 <li>
-                  <Link to="https://m.facebook.com/Haba_cosmetics-2194172697264971">
+                  <a href="https://m.facebook.com/Haba_cosmetics-2194172697264971">
                     <i className="fa fa-facebook" />
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link to="#">
+                  <a href="#">
                     <i className="fa fa-twitter" />
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link to="https://www.instagram.com/haba_cosmetics">
+                  <a href="https://www.instagram.com/haba_cosmetics">
                     <i className="fa fa-instagram" />
-                  </Link>
+                  </a>
                 </li>
               </ul>
             </div>
