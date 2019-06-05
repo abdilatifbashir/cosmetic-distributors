@@ -19,18 +19,18 @@ class Footer extends Component {
                   Copyright &copy;<script>
                     document.write(new Date().getFullYear());
                   </script>{" "}
-                  by habas cosmetics. All rights reserved | This Designed with{" "}
+                  by haba cosmetics. All rights reserved | This Designed with{" "}
                   <i className="fa fa-heart-o" aria-hidden="true" /> by{" "}
                   {/* <a href="https://colorlib.com" target="_blank">
                     Colorlib
                   </a> */}
-                  <a
+                  {/* <a
                     href="https://alphaclicksolutions.com"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
                     Alpha Nganga
-                  </a>
+                  </a> */}
                   {/* <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --> */}
                 </p>
               </div>
@@ -64,17 +64,14 @@ class Footer extends Component {
                 <h6>Follow Us</h6>
                 <p>Let us be social</p>
                 <div className="footer-social d-flex align-items-center">
-                  <a href="#">
+                  <a href="https://m.facebook.com/Haba_cosmetics-2194172697264971">
                     <i className="fa fa-facebook" />
                   </a>
                   <a href="#">
                     <i className="fa fa-twitter" />
                   </a>
-                  <a href="#">
-                    <i className="fa fa-dribbble" />
-                  </a>
-                  <a href="#">
-                    <i className="fa fa-behance" />
+                  <a href="https://www.instagram.com/haba_cosmetics">
+                    <i className="fa fa-instagram" />
                   </a>
                 </div>
               </div>
